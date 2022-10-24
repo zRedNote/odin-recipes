@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    background: linear-gradient(90deg, #FFFDE0, #AEC4EB);
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid black;
+}
+
+
+.boxes {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.box:hover {
+    transform: scale(1.05);    
+    transition: 0.5s;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.box img {
+    width: 600px;
+    height: 300px;
+    box-shadow: 20px 20px 50px grey;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
